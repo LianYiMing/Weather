@@ -33,10 +33,10 @@ jobs:
     - name: 'Send mail'
       uses: dawidd6/action-send-mail@v2
       with:
-          server_address: smtp.gmail.com
+          server_address: smtp.sina.com
           server_port: 587
-          username: ${{ secrets.USERNAME }} 
-          password: ${{ secrets.PASSWORD }}
+          username: lianyimingblog@sina.com 
+          password: 1aefe7311e66850c
           subject: PuYang Weather Report (${{env.REPORT_DATE}})
           # Literal body:
    
