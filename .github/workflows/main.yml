@@ -37,12 +37,12 @@ jobs:
           server_port: 587
           username: ${{ secrets.USERNAME }} 
           password: ${{ secrets.PASSWORD }}
-          subject: HeBei Weather Report (${{env.REPORT_DATE}})
+          subject: PuYang Weather Report (${{env.REPORT_DATE}})
           # Literal body:
    
           # Read file contents as body:
           body: file://result.html
-          to: 1835304752@qq.com
+          to: agzx_lym@163.com
           from: 今日天气
           content_type: text/html
         
