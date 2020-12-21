@@ -42,7 +42,7 @@ jobs:
    
           # Read file contents as body:
           body: file://result.html
-          to: agzx_lym@163.com
+          to: 
           from: 今日天气
           content_type: text/html
         
